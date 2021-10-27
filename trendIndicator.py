@@ -3,7 +3,7 @@ import pandas as pd
 
 def calcTrend(df, multiplier):
     """
-
+    Function to calculate the price trend for each individual period
     :param df: DataFrame consisting of time(t), volume(v) and volume-weighted price(p) for each period
     :param multiplier: fixed value used in the calculation of the trend. Higher value leads to increased sensitivity to trend changes
     :return: DataFrame which is df with the trend direction for each row appended
